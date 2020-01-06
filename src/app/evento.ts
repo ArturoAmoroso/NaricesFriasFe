@@ -2,11 +2,11 @@ export class Evento
 {
     id: number;
     titulo: string;
-    // fecha: string;
     fecha: Date;
     lugar: string;
     hora: string;
     descripcion: string;
+    imagen?: string;
 }
 
 export enum Mes{
